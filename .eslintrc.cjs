@@ -25,6 +25,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/button-has-type': 'off',
     'no-console': 'off',
+    'no-use-before-define': ['error', { variables: false, functions: false }],
     'prettier/prettier': [
       'error',
       {

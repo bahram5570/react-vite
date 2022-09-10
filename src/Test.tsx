@@ -1,9 +1,11 @@
 import { ReactComponent as SvgEl } from './assets/svg.svg';
 
-const Test = () => {
-  const list1 = ['a', 'b', 'c'];
-  const list2 = { a: 1, b: 2 };
+interface Props {
+  firstProp: string;
+  secondProp: number;
+}
 
+const Test = ({ firstProp, secondProp }: Props) => {
   return (
     <div>
       <img src="/src/assets/png.png" alt="sdfs" />
@@ -18,6 +20,10 @@ const Test = () => {
         onClick={(x) => console.log(x)}>
         Test
       </button>
+
+      <p>{firstProp}</p>
+
+      <p>{secondProp}</p>
 
       <h2>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tenetur

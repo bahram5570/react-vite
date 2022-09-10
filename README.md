@@ -26,3 +26,6 @@
 
 10. npm i vite-plugin-svgr
     ( https://www.npmjs.com/package/vite-plugin-svgr )
+
+11. npm i -D @trivago/prettier-plugin-sort-imports
+(  https://github.com/trivago/prettier-plugin-sort-imports  )
