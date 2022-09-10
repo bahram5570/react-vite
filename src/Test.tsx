@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-absolute-path
 import { ReactComponent as SvgEl } from './assets/svg.svg';
 
 const Test = () => {

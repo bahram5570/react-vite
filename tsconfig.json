@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
   },
-  "include": [".eslintrc.cjs", "src"],
+  "include": [".eslintrc.cjs", "src", "src/@types/svgType.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
